@@ -63,7 +63,7 @@ function updateProduct(id, quantity){
 function checkInventory(id, inventory, productQuantity){
   for (var i = 0; i < inventory.length; i++){
 
-    if (inventory[i].item_id === id){
+   if ( inventory[i].item_id === parseInt(id) ){
       console.log("purchase made")
       if(inventory[id].stock_quantity > productQuantity){
         return true;
