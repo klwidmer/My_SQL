@@ -2,9 +2,6 @@
 
 1. This application allows users to select an item by ID. 
 
-
-
-
 function searchID(inventory){
   inquirer.prompt([
       {
@@ -16,9 +13,7 @@ function searchID(inventory){
         name: "products",
         type: "input",
         message: "How many units would you like to purchase?"
-          
       },
- 
     ])
   .then(function(answers){
     if(checkInventory(answers.id, inventory, answers.products)){
