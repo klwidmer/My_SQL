@@ -1,7 +1,8 @@
 # Bamazon
 
-1. This application allows users to select an item by ID. 
+1. This application allows users to select products and updates the MySQL Database
 
+ID SEARCH FUNCTION
 function searchID(inventory){
   inquirer.prompt([
       {
@@ -24,7 +25,7 @@ function searchID(inventory){
   })
 }
 
-Once the User has selected their item the code will update the inventory 
+INVENTORY UPDATE
 
 function updateProduct(id, quantity){
   connection.query("UPDATE products SET stock_quantity = stock_quantity - ? WHERE item_id = ?", [quantity,id], function(err, res) {
