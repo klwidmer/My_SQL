@@ -2,6 +2,9 @@
 
 1. This application allows users to select an item by ID. 
 
+
+
+
 function searchID(inventory){
   inquirer.prompt([
       {
