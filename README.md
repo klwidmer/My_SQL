@@ -52,3 +52,7 @@ function checkInventory(id, inventory, productQuantity){
   console.log("id doesnt exist");
   return false;
 }
+
+https://github.com/klwidmer/My_SQL.git
+
+https://drive.google.com/file/d/14nuwikY4XWCQRxJaiCpWQbHLyPSkHdz1/view
